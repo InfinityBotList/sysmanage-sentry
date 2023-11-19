@@ -1,8 +1,8 @@
-cmd: /root/sysmanage-config/sysmanage
-dir: /root/sysmanage-config
+cmd: /root/sysmanage-iblsentry/sysmanage
+dir: /root/sysmanage-iblsentry
 target: core
 description: System Management [v4]
-after: void
+after: network
 broken: false
 user: ""
 group: ""
