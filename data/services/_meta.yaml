@@ -1,7 +1,5 @@
 targets:
     - name: ibl
       description: Infinity Bot List
-    - name: rootpersonal
-      description: Rootspring's personal stuff (vivum bots)
     - name: core
       description: Core infrastructure
