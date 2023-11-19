@@ -1,0 +1,8 @@
+cmd: /home/xavage/backend/xavagebb
+dir: /home/xavage/backend
+target: rootpersonal
+description: xavage
+after: void
+broken: false
+user: xavage
+group: xavage

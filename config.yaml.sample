@@ -1,0 +1,27 @@
+# Enabled plugins
+plugins:
+  authdummy:
+  authdp:
+    dp_secret: fab14475bb96bb605e7a1ad8041a1a19159e4313d63ffe666393044b777c50bf
+    url: https://sysmanage-orchard.infinitybots.gg
+    allowed_users:
+      - 728871946456137770
+      - 510065483693817867
+  nginx:
+    nginx_definitions: data/nginx
+    cf_api_token: q95VnFlJOazLfgyppLV9W5Sfk8quQctmrq_pi4nT 
+  persist:
+    use_token_auth: true
+    password: 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
+  systemd:
+    service_definitions: data/services
+    service_out: /etc/systemd/system
+    srv_mod_bypass:
+      - sysmanage
+      - deployproxy
+      - void
+  frontend:
+  actions:
+  foo:
+  logger:
+

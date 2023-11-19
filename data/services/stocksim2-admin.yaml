@@ -1,0 +1,8 @@
+cmd: /home/xavage/.local/bin/uvicorn admin.app:app --port 1922
+dir: /home/xavage/backend/cmd/piccolo-admin
+target: rootpersonal
+description: admin panel
+after: void
+broken: false
+user: xavage
+group: xavage
