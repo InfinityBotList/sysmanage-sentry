@@ -1,1 +1,11 @@
 servers:
+    - id: trace
+      names:
+        - trace
+      comment: Sentry Service
+      broken: false
+      locations:
+        - path: /
+          proxy: http://127.0.0.1:9000
+          opts: []
+real_name: ""
