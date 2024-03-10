@@ -1,0 +1,8 @@
+cmd: /usr/bin/ls /root/.ssh
+dir: /root/
+target: core
+description: test
+after: ibl-maint
+broken: false
+user: root
+group: root
